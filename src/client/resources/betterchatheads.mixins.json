@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.pheonix.betterchatheads.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "ChatHeadMixin",
+    "ChatHudHudAccessor",
+    "ChatHudInteractableAccessor",
+    "ChatHudLineMixin",
+    "ChatHudStorageAccessor",
+    "ChatHudStoredLineMixin",
+    "ChatHudVisibleLineMixin",
+    "MessageHandlerMixin",
+    "TabListHeadMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
